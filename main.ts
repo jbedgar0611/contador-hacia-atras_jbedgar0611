@@ -6,7 +6,7 @@ contador = 10
 basic.forever(function () {
     contador += -1
     basic.showNumber(contador)
-    if (contador > 10) {
+    if (contador < 1) {
         contador = 10
     }
     basic.pause(1000)
